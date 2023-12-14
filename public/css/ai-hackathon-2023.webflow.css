@@ -578,7 +578,7 @@ p {
   grid-column-gap: 1.5rem;
   grid-row-gap: 1.5rem;
   grid-template-rows: auto auto auto;
-  grid-template-columns: 1.1fr 1fr;
+  grid-template-columns: 1.35fr .75fr;
   grid-auto-columns: 1fr;
   display: grid;
 }
@@ -630,9 +630,11 @@ p {
 }
 
 .note-illust {
-  width: 65%;
+  width: 20%;
   max-width: 24.375rem;
   min-width: 15rem;
+  flex: 0 auto;
+  display: block;
   position: absolute;
   top: 0%;
   bottom: auto;
